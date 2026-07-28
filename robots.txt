@@ -1,0 +1,58 @@
+# robots.txt — AI crawlers explicitly welcome (GEO stance, round-0 §C).
+# Generated at build time from astro.config `site`; never edit by hand.
+
+# --- OpenAI ---
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# --- Anthropic ---
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+# --- Perplexity ---
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# --- Google (Gemini training/grounding control token) ---
+User-agent: Google-Extended
+Allow: /
+
+# --- Apple (AI-training control token) ---
+User-agent: Applebot-Extended
+Allow: /
+
+# --- Common Crawl ---
+User-agent: CCBot
+Allow: /
+
+# --- Meta ---
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: meta-externalfetcher
+Allow: /
+
+User-agent: meta-webindexer
+Allow: /
+
+# --- Everyone else ---
+User-agent: *
+Allow: /
+
+# @astrojs/sitemap emits sitemap-index.xml (the exact name matters).
+Sitemap: https://www.minroc.de/sitemap-index.xml
